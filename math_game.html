@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MATH GAME</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body class="background_color">
+<h4 id="player1_name"></h4><span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4><span id="player2_score"></span>
+<div class="container">
+	<style>
+		#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.background_color{
+    background-image: url(https://eskipaper.com/images/math-pictures-4.jpg);
+}
+#number1
+{
+   width: 30%; 
+}
+#number2
+{
+    width: 30%;
+    margin-top: 50px;
+}
+#question1{
+	text-size-adjust: 20px;
+}
+
+
+	</style>
+	<center>
+		<h2 style="color: darkorange;"><b><i> ANSWER THE QUESTION!</i></b></h2>
+        <h3 id="player_question"></h3>
+<h3 id="player_answer"></h3>
+<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+		<label id="question1" style="color: red;">Enter the digit below</label>
+		<br>
+		<input id="number1" style="color: black;" placeholder="Enter the first number">
+		<br>
+		<input id="number2" style="color: black;" placeholder="Enter the secand number">
+		<br>
+		<br>
+		<hr>
+		<button onclick="send()" class="btn btn-success" style="width: 50%;">SEND</button>
+			</center>
+			</div>
+			</body>
+			</html>
